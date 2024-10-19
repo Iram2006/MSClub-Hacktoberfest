@@ -1,6 +1,5 @@
-# hello_world.py
 def greet():
     print("Hello, Hacktoberfest!")
 
 if __name__ == "__main__":
-    greet()
+    greet()  # Corrected the function call by closing the parenthesis
