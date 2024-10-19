@@ -14,5 +14,3 @@ if __name__ == "__main__":
         print(f"{temp}°F is {fahrenheit_to_celsius(temp)}°C")
     else:
         print("Invalid scale. Please enter 'C' or 'F'.")
-
-
