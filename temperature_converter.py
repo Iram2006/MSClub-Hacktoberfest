@@ -15,3 +15,4 @@ if __name__ == "__main__":
     else:
         print("Invalid scale. Please enter 'C' or 'F'.")
 
+
