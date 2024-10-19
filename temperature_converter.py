@@ -1,16 +1,9 @@
-def celsius_to_fahrenheit(c):
-    return (c * 9/5) + 32
-
-def fahrenheit_to_celsius(f):
-    return (f - 32) * 5/9
+def reverse_string(s):
+    return s[::-1]
 
 if __name__ == "__main__":
-    scale = input("Enter 'C' for Celsius or 'F' for Fahrenheit: ").strip().upper()
-    temp = float(input("Enter temperature: "))
-
-    if scale == 'C':
-        print(f"{temp}°C is {celsius_to_fahrenheit(temp)}°F")
-    elif scale == 'F':
-        print(f"{temp}°F is {fahrenheit_to_celsius(temp)}°C")
+    string = input("Enter a string to reverse: ").strip()
+    if not string:
+        print("You entered an empty string. Please provide a valid string.")
     else:
-        print("Invalid scale. Please enter 'C' or 'F'.")
+        print(f"Reversed string: {reverse_string(string)}")
